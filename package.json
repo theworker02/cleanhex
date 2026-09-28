@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/cleanhex",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Clean lightweight hex statistics from stdin samples.",
+  "bin": {
+    "cleanhex": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/cleanhex.git"
+  },
+  "homepage": "https://theworker02.github.io/cleanhex/",
+  "keywords": [
+    "clean",
+    "hex",
+    "stat",
+    "cli",
+    "toolkit"
+  ]
+}
